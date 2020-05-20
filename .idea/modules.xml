@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/unipd-ingsw-junit-adapter/unipd-ingsw-junit-adapter.iml" filepath="$PROJECT_DIR$/unipd-ingsw-junit-adapter/unipd-ingsw-junit-adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/unipd-ingsw-junit-sample/unipd-ingsw-junit-sample.iml" filepath="$PROJECT_DIR$/unipd-ingsw-junit-sample/unipd-ingsw-junit-sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/unipd-ingsw-junit-test/unipd-ingsw-junit-test.iml" filepath="$PROJECT_DIR$/unipd-ingsw-junit-test/unipd-ingsw-junit-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unipd-ingsw-junit-tutorial/unipd-ingsw-junit-tutorial.iml" filepath="$PROJECT_DIR$/unipd-ingsw-junit-tutorial/unipd-ingsw-junit-tutorial.iml" />
     </modules>
   </component>
 </project>
