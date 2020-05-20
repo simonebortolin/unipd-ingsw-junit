@@ -89,11 +89,13 @@ public class TargetTest {
         for(int item : arr) {
             target.push((Integer) item);
             assertEquals(target.search((Integer) item), 1);
+            assertFalse(target.empty());
 
         }
 
         assertEquals(target.search((Integer) 22), 1);
         assertEquals(target.search((Integer) 43), 2);
+        assertEquals(target.search((Integer) (-55)), 7);
         assertEquals(target.search((Integer) 66), 8);
 
         //assertEquals(target.search((Integer) 55), 5);
@@ -102,6 +104,8 @@ public class TargetTest {
         while (!target.empty()) {
             assertEquals(target.pop(), (Integer) arr[last--]);
         }
+        assertTrue(target.empty());
+
     }
 
     private static int[] reverse(int a[], int n)

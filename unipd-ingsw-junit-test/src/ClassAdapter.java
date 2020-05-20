@@ -59,7 +59,19 @@ implements Target<E>
 	*/
 	public int search(Object o)
 	{
-		int retval = search(o);
+		E tbf = null;
+
+		try
+		{
+			tbf = (E)o;
+		}
+		catch(ClassCastException cce)
+		{
+			cce.printStackTrace();
+			return -1;
+		}
+
+		int retval = search(tbf);
 		if(retval == -1)
 		{
 			return -1;

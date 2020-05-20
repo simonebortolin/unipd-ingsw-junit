@@ -86,6 +86,8 @@ public class Adaptee<E>
 			if(elem.equals(tmp.elem))
 			{
 				return i;
+			} else {
+				tmp = head.next;
 			}
 		}
 		return -1;
