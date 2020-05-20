@@ -95,6 +95,9 @@ public class TargetTest {
 
         assertEquals(target.search((Integer) 22), 1);
         assertEquals(target.search((Integer) 43), 2);
+        assertEquals(target.search((Integer) 33), 3);
+        assertEquals(target.search((Integer) 55), 4);
+
         assertEquals(target.search((Integer) (-55)), 7);
         assertEquals(target.search((Integer) 66), 8);
 

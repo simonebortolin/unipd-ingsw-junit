@@ -87,7 +87,7 @@ public class Adaptee<E>
 			{
 				return i;
 			} else {
-				tmp = head.next;
+				tmp = tmp.next;
 			}
 		}
 		return -1;
