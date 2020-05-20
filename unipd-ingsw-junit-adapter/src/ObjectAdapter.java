@@ -1,7 +1,7 @@
-public class Adapter implements Temperature {
+public class ObjectAdapter implements Temperature {
     private final FahrenheitTemperature fahrenheitTemperature;
 
-    public Adapter(double celsius) {
+    public ObjectAdapter(double celsius) {
         fahrenheitTemperature = new FahrenheitTemperature(0);
         fahrenheitTemperature.fromCelsius(celsius);
     }
